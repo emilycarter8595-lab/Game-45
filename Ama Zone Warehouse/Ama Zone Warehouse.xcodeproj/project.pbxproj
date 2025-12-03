@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10000001 /* AmaZoneWarehouseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000001 /* AmaZoneWarehouseApp.swift */; };
+		10000002 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000002 /* Router.swift */; };
+		10000003 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000003 /* DashboardView.swift */; };
+		10000004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20000004 /* Assets.xcassets */; };
+		10000005 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000005 /* StorageService.swift */; };
+		10000006 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000006 /* DesignSystem.swift */; };
+		10000008 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000008 /* SplashView.swift */; };
+		10000009 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000009 /* OnboardingView.swift */; };
+		10000010 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000010 /* MainView.swift */; };
+		10000011 /* ZoneCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000011 /* ZoneCard.swift */; };
+		10000012 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000012 /* Product.swift */; };
+		10000013 /* ZoneDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000013 /* ZoneDetailView.swift */; };
+		10000014 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000014 /* ProductDetailView.swift */; };
+		10000015 /* AddProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000015 /* AddProductView.swift */; };
+		10000016 /* MovementHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000016 /* MovementHistoryView.swift */; };
+		10000017 /* DeadlinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000017 /* DeadlinesView.swift */; };
+		10000018 /* MovementRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000018 /* MovementRow.swift */; };
+		10000019 /* DeadlineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000019 /* DeadlineRow.swift */; };
+		10000020 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000020 /* ProductRow.swift */; };
+		10000021 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000021 /* RootView.swift */; };
+		F0000001 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0000005 /* Poppins-Regular.ttf */; };
+		F0000002 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0000006 /* Poppins-Medium.ttf */; };
+		F0000003 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0000007 /* Poppins-SemiBold.ttf */; };
+		F0000004 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0000008 /* Poppins-Bold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20000001 /* AmaZoneWarehouseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmaZoneWarehouseApp.swift; sourceTree = "<group>"; };
+		20000002 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		20000003 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		20000004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20000005 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		20000006 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		20000007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20000008 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		20000009 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		20000010 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		20000011 /* ZoneCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneCard.swift; sourceTree = "<group>"; };
+		20000012 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		20000013 /* ZoneDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneDetailView.swift; sourceTree = "<group>"; };
+		20000014 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		20000015 /* AddProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductView.swift; sourceTree = "<group>"; };
+		20000016 /* MovementHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementHistoryView.swift; sourceTree = "<group>"; };
+		20000017 /* DeadlinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadlinesView.swift; sourceTree = "<group>"; };
+		20000018 /* MovementRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementRow.swift; sourceTree = "<group>"; };
+		20000019 /* DeadlineRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadlineRow.swift; sourceTree = "<group>"; };
+		20000020 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		20000021 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		6DD79E732ED64B770085909A /* Ama Zone Warehouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ama Zone Warehouse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0000005 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		F0000006 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		F0000007 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		F0000008 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DD79E702ED64B770085909A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30000000 = {
+			isa = PBXGroup;
+			children = (
+				30000001 /* Ama Zone Warehouse */,
+				6DD79E742ED64B770085909A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30000001 /* Ama Zone Warehouse */ = {
+			isa = PBXGroup;
+			children = (
+				30000002 /* App */,
+				30000003 /* Features */,
+				30000004 /* Resources */,
+				30000005 /* Shared */,
+			);
+			path = "Ama Zone Warehouse";
+			sourceTree = "<group>";
+		};
+		30000002 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				20000001 /* AmaZoneWarehouseApp.swift */,
+				20000021 /* RootView.swift */,
+				20000002 /* Router.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		30000003 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				30000006 /* Home */,
+				30000011 /* Onboarding */,
+				30000012 /* Main */,
+				30000014 /* Zone */,
+				30000015 /* Product */,
+				30000016 /* Movement */,
+				30000017 /* Deadlines */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		30000004 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F0000009 /* Fonts */,
+				20000004 /* Assets.xcassets */,
+				20000007 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		30000005 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				30000007 /* Services */,
+				30000008 /* UI */,
+				30000009 /* Models */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		30000006 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				20000003 /* DashboardView.swift */,
+				30000013 /* Components */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		30000007 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				20000005 /* StorageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		30000008 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				20000006 /* DesignSystem.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		30000009 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				20000012 /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		30000011 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				20000008 /* SplashView.swift */,
+				20000009 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		30000012 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				20000010 /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		30000013 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				20000011 /* ZoneCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		30000014 /* Zone */ = {
+			isa = PBXGroup;
+			children = (
+				20000013 /* ZoneDetailView.swift */,
+				30000021 /* Components */,
+			);
+			path = Zone;
+			sourceTree = "<group>";
+		};
+		30000015 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				20000014 /* ProductDetailView.swift */,
+				20000015 /* AddProductView.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		30000016 /* Movement */ = {
+			isa = PBXGroup;
+			children = (
+				20000016 /* MovementHistoryView.swift */,
+				30000019 /* Components */,
+			);
+			path = Movement;
+			sourceTree = "<group>";
+		};
+		30000017 /* Deadlines */ = {
+			isa = PBXGroup;
+			children = (
+				20000017 /* DeadlinesView.swift */,
+				30000020 /* Components */,
+			);
+			path = Deadlines;
+			sourceTree = "<group>";
+		};
+		30000019 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				20000018 /* MovementRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		30000020 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				20000019 /* DeadlineRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		30000021 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				20000020 /* ProductRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6DD79E742ED64B770085909A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DD79E732ED64B770085909A /* Ama Zone Warehouse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0000009 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F0000005 /* Poppins-Regular.ttf */,
+				F0000006 /* Poppins-Medium.ttf */,
+				F0000007 /* Poppins-SemiBold.ttf */,
+				F0000008 /* Poppins-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DD79E722ED64B770085909A /* Ama Zone Warehouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DD79E7E2ED64B790085909A /* Build configuration list for PBXNativeTarget "Ama Zone Warehouse" */;
+			buildPhases = (
+				6DD79E6F2ED64B770085909A /* Sources */,
+				6DD79E702ED64B770085909A /* Frameworks */,
+				6DD79E712ED64B770085909A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ama Zone Warehouse";
+			productName = "Ama Zone Warehouse";
+			productReference = 6DD79E732ED64B770085909A /* Ama Zone Warehouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DD79E6B2ED64B770085909A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					6DD79E722ED64B770085909A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 6DD79E6E2ED64B770085909A /* Build configuration list for PBXProject "Ama Zone Warehouse" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30000000;
+			productRefGroup = 6DD79E742ED64B770085909A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DD79E722ED64B770085909A /* Ama Zone Warehouse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DD79E712ED64B770085909A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0000001 /* Poppins-Regular.ttf in Resources */,
+				F0000002 /* Poppins-Medium.ttf in Resources */,
+				F0000003 /* Poppins-SemiBold.ttf in Resources */,
+				F0000004 /* Poppins-Bold.ttf in Resources */,
+				10000004 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DD79E6F2ED64B770085909A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10000001 /* AmaZoneWarehouseApp.swift in Sources */,
+				10000012 /* Product.swift in Sources */,
+				10000013 /* ZoneDetailView.swift in Sources */,
+				10000014 /* ProductDetailView.swift in Sources */,
+				10000015 /* AddProductView.swift in Sources */,
+				10000016 /* MovementHistoryView.swift in Sources */,
+				10000017 /* DeadlinesView.swift in Sources */,
+				10000008 /* SplashView.swift in Sources */,
+				10000009 /* OnboardingView.swift in Sources */,
+				10000010 /* MainView.swift in Sources */,
+				10000011 /* ZoneCard.swift in Sources */,
+				10000002 /* Router.swift in Sources */,
+				10000003 /* DashboardView.swift in Sources */,
+				10000005 /* StorageService.swift in Sources */,
+				10000006 /* DesignSystem.swift in Sources */,
+				10000018 /* MovementRow.swift in Sources */,
+				10000019 /* DeadlineRow.swift in Sources */,
+				10000020 /* ProductRow.swift in Sources */,
+				10000021 /* RootView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6DD79E7C2ED64B790085909A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6DD79E7D2ED64B790085909A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DD79E7F2ED64B790085909A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ama Zone Warehouse/Resources/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ama: Zone Warehouse";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "k.Ama-Zone-Warehouse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6DD79E802ED64B790085909A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ama Zone Warehouse/Resources/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ama: Zone Warehouse";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "k.Ama-Zone-Warehouse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DD79E6E2ED64B770085909A /* Build configuration list for PBXProject "Ama Zone Warehouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DD79E7C2ED64B790085909A /* Debug */,
+				6DD79E7D2ED64B790085909A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DD79E7E2ED64B790085909A /* Build configuration list for PBXNativeTarget "Ama Zone Warehouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DD79E7F2ED64B790085909A /* Debug */,
+				6DD79E802ED64B790085909A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DD79E6B2ED64B770085909A /* Project object */;
+}
